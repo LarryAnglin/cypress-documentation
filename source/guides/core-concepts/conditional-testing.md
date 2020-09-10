@@ -39,7 +39,7 @@ The problem with **conditional testing** is that it can only be used when the st
 
 To a human - if something changes 10ms or 100ms from now, we may not even notice this change and assume the state was always the same.
 
-To a robot - even 10ms represents billions+ of clock cycles. The timescale difference is incredible.
+To a robot - even 10ms represents millions+ of clock cycles. The timescale difference is incredible.
 
 A human also has intuition. If you click a button and see a loading spinner, you will assume the state is in flux and will automatically wait for it to finish.
 
